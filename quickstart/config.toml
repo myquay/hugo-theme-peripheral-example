@@ -1,0 +1,35 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Example Site For Peripheral"
+themesDir = "themes"
+theme = "peripheral"
+DefaultContentLanguage = "en"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'github-dark'
+    tabWidth = 4
+    
+[Params.Peripheral]
+    favicon = "favicon.png"
+    dateFormat = "January 2, 2006"
+    subtitle = "Example Site For Peripheral"
+    location = "Auckland, New Zealand"
+
+[Params.Peripheral.Obsolescence]
+    enabled = true
+    years = 3
+    message = "This content could be out of date. Please read this keeping its age in mind."
+
+[Params.Peripheral.Series]
+    enabled = true
+    showToBeContinued = true
