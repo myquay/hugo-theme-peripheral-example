@@ -46,7 +46,7 @@ jobs:
           sudo mv hugo /usr/local/bin
           
       - name: 🛠️ Build website
-        run: hugo -s ${{github.workspace}}/quickstart -d ${{github.workspace}}/dist --log -v
+        run: hugo -s ${{github.workspace}}/quickstart -d ${{github.workspace}}/dist --environment github-pages --log -v
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

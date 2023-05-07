@@ -18,7 +18,7 @@ DefaultContentLanguage = "en"
     noClasses = false
     style = 'github-dark'
     tabWidth = 4
-    
+
 [Params.Peripheral]
     favicon = "favicon.png"
     dateFormat = "January 2, 2006"
