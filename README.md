@@ -7,3 +7,4 @@ It demonstrates how to configure the theme as well as how to use GitHub pipeline
 ## Tutorials
 
 * [How to deploy to GitHub pages](https://michael-mckenna.com/host-your-hugo-generated-site-on-github/)
+* [How to get latest commit information in the header or footer](https://michael-mckenna.com/linking-to-the-latest-commit-in-the-footer-of-your-hugo-static-site-on-github/)
