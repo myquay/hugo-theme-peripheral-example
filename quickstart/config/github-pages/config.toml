@@ -1,1 +1,10 @@
 baseURL = "https://myquay.github.io/hugo-theme-peripheral-example"
+enableGitInfo = true
+
+[Params.Peripheral.GitInfo]
+    enabled = true
+    repository = "https://github.com/myquay/hugo-theme-peripheral-example"
+    abbreviatedHash = "{{AbbreviatedHash}}"
+    hash = "{{Hash}}"
+    subject = "{{Subject}}"
+    branch = "main"
