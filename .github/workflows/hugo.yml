@@ -49,9 +49,9 @@ jobs:
         run: hugo -s ${{github.workspace}}/quickstart -d ${{github.workspace}}/dist --log -v
         
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '${{github.workspace}}/dist/*.*'
+          path: '${{github.workspace}}/dist/*'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
