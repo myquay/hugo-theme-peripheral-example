@@ -48,10 +48,10 @@ jobs:
       - name: 🛠️ Build website
         run: hugo -s ${{github.workspace}}/quickstart -d ${{github.workspace}}/dist --environment github-pages --log -v
         
-      - name: Upload artifact
+      - name: 📦 Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: '${{github.workspace}}/dist'
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
