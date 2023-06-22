@@ -1,6 +1,6 @@
 ---
 title: Fragments
-url: /fragment
+url: /fragments
 menu:
   main:
     name: Fragments

@@ -24,4 +24,4 @@ var int i = 4m;
 
 ## But most of all
 
-I like the way you write.
+It likes the way you write.
