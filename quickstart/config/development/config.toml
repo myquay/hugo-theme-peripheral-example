@@ -1,16 +1,1 @@
 baseURL = "/"
-
-[mediaTypes]
-    [mediaTypes."application/atom+xml"]
-    suffixes = ["xml"]
-
-[outputFormats.RSS]
-    mediaType = "application/rss+xml"
-    baseName = "rss"
-
-[outputFormats.Atom]
-    mediaType = "application/atom+xml"
-    baseName = "atom"
-
-[outputs] 
-    section = ["HTML", "RSS", "Atom"]

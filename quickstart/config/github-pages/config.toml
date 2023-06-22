@@ -1,11 +1,5 @@
 baseURL = "https://myquay.github.io/hugo-theme-peripheral-example"
-languageCode = "en-us"
-title = "Peripheral example"
-themesDir = "themes"
-theme = "hugo-theme-peripheral"
 enableGitInfo = true
-DefaultContentLanguage = "en"
-
 
 [Params.Peripheral.GitInfo]
     enabled = true
@@ -14,18 +8,3 @@ DefaultContentLanguage = "en"
     hash = "{{Hash}}"
     subject = "{{Subject}}"
     branch = "main"
-
-[mediaTypes]
-    [mediaTypes."application/atom+xml"]
-    suffixes = ["xml"]
-
-[outputFormats.RSS]
-    mediaType = "application/rss+xml"
-    baseName = "rss"
-
-[outputFormats.Atom]
-    mediaType = "application/atom+xml"
-    baseName = "atom"
-
-[outputs] 
-    section = ["HTML", "RSS", "Atom"]
