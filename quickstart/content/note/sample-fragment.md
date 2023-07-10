@@ -1,11 +1,11 @@
 ---
 date: 2023-04-27T10:00:00+12:00
-title: 'Sample Fragment'
-slug: /sample-fragment
-summary: The is the fragment summary.
+title: 'Sample Note'
+slug: /sample-note
+summary: The is the note summary.
 ---
 
-A fragment is a small post that is not as well researched as longer form blog posts but help increase writing frequency.
+A note is a small post that is not as well researched as longer form blog posts but help increase writing frequency.
 
 #### It can display code.
 
